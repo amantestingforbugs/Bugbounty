@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/cli.js",
+    "start": "node dist/server.js",
     "dev": "tsx src/cli.ts",
     "setup": "tsx src/setup.ts",
     "setup:api": "bash scripts/setup-api.sh",
